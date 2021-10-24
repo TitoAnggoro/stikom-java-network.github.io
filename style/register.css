@@ -1,0 +1,153 @@
+@font-face {
+    font-family : Poppins-Medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.logo-jdg {
+    width: 5px;
+    height: px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+.welcome-back {
+    margin-left: 60px;
+    margin-top: 25px;
+    font-family: Poppins-Medium;
+    color: #000
+}
+
+.sign-in-to {
+    margin-left: 60px;
+    margin-top: 10px;
+    opacity: 60%;
+    font-family: Poppins-Regular;
+}
+section {
+    margin : auto;
+    display: flex;
+}
+
+.type-login {
+    margin-left: 76px;
+    margin-top: 35px;
+    color: #DB0000;
+    font-family: Poppins-Medium;
+}
+
+.type-login {
+    margin-left: 56px;
+    margin-top: 35px;
+    font-family: Poppins-Medium;
+}
+
+.type-login h4 a {
+    text-decoration: none;
+    color: #050A15;
+    opacity: 50%;
+}
+
+.line-login {
+    margin-left: 60px;
+    margin-top: 1px;
+    margin-bottom: 45px;
+}
+
+.email-form label {
+    margin-top: 45px;
+    margin-left: 60px;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    
+}
+
+.email-form input {
+    margin-left: 60px;
+    margin-top: 8px;
+    height: 40px;
+    width: 367px;
+    border-color: #BABCBF;
+    margin-bottom: 36px;
+}
+
+.password-form label {
+    margin-left: 60px;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+}
+
+.password-form input{
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 36px;
+    height: 40px;
+    width: 367px;
+    border-color: #BABCBF;
+}
+
+section{
+    margin: auto;
+    display: flex;
+}
+
+.checkbox-remember input {
+    margin-left: 60px;
+    border-color: #BABCBF;
+}
+
+.checkbox-remember label {
+    margin-left: 12px;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+}
+
+.forget-password a {
+    margin-left: 110px;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.button-login a button {
+    margin-left: 60px;
+    margin-top: 28px;
+    width: 367px;
+    height: 40px;
+    background-color: #ff4100;
+    color: white;
+    font-family: Poppins-SemiBold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-login:hover {
+    background-color: #00f;
+}
+
+.illustrasi-login img {
+    width: 832px;
+    height: 626px;
+    margin-top: px;
+    margin-left: 200px;
+}
+
+
