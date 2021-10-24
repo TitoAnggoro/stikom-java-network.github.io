@@ -18,7 +18,12 @@
     padding: 0px;
 }
 
-
+.jdg-logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
 
 .logo-jdg {
     width: 200px;
