@@ -242,4 +242,32 @@ p {
   to{border-right-color: transparent;}
 }
 
+.logo-jdg-navbar {
+    width: 100px;
+    height: 26px;    
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: #DB0000;
+}
+
+.topnav a {
+  display: flex;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family : Poppins-Medium;
+}
+
+.textnav :hover{
+background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+   color: black;
+}
