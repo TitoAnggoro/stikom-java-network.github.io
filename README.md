@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# [Stikom Valley](https://stikom-java-network.github.io/)
+# [Java Developer Group](https://stikom-java-network.github.io/)
 
 Landing page for Java Developer Group, made using HTML & CSS 💕
 
