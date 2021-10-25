@@ -4,7 +4,7 @@
 
 # [Java Developer Group](https://stikom-java-network.github.io/)
 
-Landing page for Java Developer Group, made using HTML & CSS 💕
+Landing page for Java Developer Group, made using HTML & CSS 🚀
 
 <br />
 
