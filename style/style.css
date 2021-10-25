@@ -175,4 +175,71 @@ section{
     margin-left: 200px;
 }
 
+.text-header {
+    border: 3px;
+    text-align: center;
+    font-family: Poppins-SemiBold;
+}
+
+.button-add {
+    margin: 0 auto;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    font-size: 50px;
+    border: none;
+    background-color: #DB0000;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Poppins-Medium;
+}
+
+.button-add:hover {
+    background-color: #e23333;
+}
+
+.logo-jdg-header {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+}
+
+.text-think{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-thinklike{
+  animation: thinklike 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes thinklike{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 
