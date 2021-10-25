@@ -271,3 +271,12 @@ background-color: #ddd;
 .topnav a.active {
    color: black;
 }
+
+.text-somecontent {
+    font-size: 35px;
+    padding-top: 300px;
+    font-family: Poppins-SemiBold;
+    padding-left: 40px
+}
+
+
