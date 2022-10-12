@@ -270,6 +270,10 @@ p {
   font-family: Poppins-Medium;
 }
 
+.textnav {
+  padding-top: 2px;
+}
+
 .textnav :hover {
   background-color: #ddd;
   color: black;
