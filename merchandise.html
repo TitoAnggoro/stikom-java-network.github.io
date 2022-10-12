@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="icon" href="assets/LogoJDG.png" />
+
+    <!-- BOOTSTRAP LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="topnav">
@@ -23,8 +36,63 @@
       </div>
     </div>
 
-    <div style="padding-left: 16px">
-      <p>Some content..</p>
+    <div class="page-merchandise">
+      <div class="container">
+        <section class="merchandise-breadcrumbs pt-4">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="beranda.html">Beranda</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Merchandise
+              </li>
+            </ol>
+          </nav>
+        </section>
+        <section class="merchandise-greeting">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h4>Dapatkan merhcandise Java Developer Group</h4>
+            </div>
+          </div>
+        </section>
+        <section class="carousel-merchandise pt-3">
+          <div class="row">
+            <div class="col-12">
+              <div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/pdl-jdg.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/logojdgori.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/pdl-jdg.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>

@@ -290,6 +290,16 @@ p {
   padding-left: 40px;
 }
 
+/* Bread Crumbs */
+
+.breadcrumb-item a {
+  color: #050a15;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Carousel Merchandise */
+
 /* fdfdfdf */
 body {
   background-color: #fff;
@@ -303,7 +313,7 @@ h1 .bjorka {
   background-image: -ms-linear-gradient(top, #111, #0c0c0c);
   background-image: -o-linear-gradient(top, #111, #0c0c0c);
   font-size: 50px;
-  font-family: 'Amethysta', serif;
+  font-family: "Amethysta", serif;
   text-align: center;
   line-height: 1.4em;
   text-transform: uppercase;
@@ -313,7 +323,7 @@ h1 .bjorka {
 
 span {
   color: #000;
-  font-family: 'Caesar Dressing', cursive;
+  font-family: "Caesar Dressing", cursive;
   font-size: 5em;
   text-transform: lowercase;
   vertical-align: middle;
